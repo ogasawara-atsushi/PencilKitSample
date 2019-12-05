@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample-frameworks.sh
+${PODS_ROOT}/Reveal-SDK/RevealServer-19/iOS/RevealServer.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
