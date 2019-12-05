@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4352E92398D79E00759617 /* Canvas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4352E82398D79E00759617 /* Canvas.storyboard */; };
+		2F4352EB2398D7B200759617 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352EA2398D7B200759617 /* CanvasViewController.swift */; };
+		2F4352F02398DA9600759617 /* TapAreaExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352EF2398DA9600759617 /* TapAreaExpandButton.swift */; };
+		2F4352F42398DB2100759617 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352F32398DB2100759617 /* Draw.swift */; };
+		2F4352F92398DEE800759617 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352F82398DEE800759617 /* Util.swift */; };
+		2F4352FC2398E04300759617 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352FB2398E04300759617 /* UIImage+Util.swift */; };
+		2F4352FE2398E06E00759617 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4352FD2398E06E00759617 /* UIView+Util.swift */; };
+		9D4CECD5539825AA92AA60C7 /* Pods_PencilKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6F069C1EA2656F03387651 /* Pods_PencilKitSample.framework */; };
 		D683544F235C85CF002A458F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683544E235C85CF002A458F /* AppDelegate.swift */; };
 		D6835451235C85CF002A458F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6835450235C85CF002A458F /* SceneDelegate.swift */; };
 		D6835453235C85CF002A458F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6835452235C85CF002A458F /* ViewController.swift */; };
@@ -16,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F4352E82398D79E00759617 /* Canvas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Canvas.storyboard; sourceTree = "<group>"; };
+		2F4352EA2398D7B200759617 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		2F4352EF2398DA9600759617 /* TapAreaExpandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAreaExpandButton.swift; sourceTree = "<group>"; };
+		2F4352F32398DB2100759617 /* Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw.swift; sourceTree = "<group>"; };
+		2F4352F52398DC5300759617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F4352F82398DEE800759617 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		2F4352FB2398E04300759617 /* UIImage+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
+		2F4352FD2398E06E00759617 /* UIView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		8C6F069C1EA2656F03387651 /* Pods_PencilKitSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PencilKitSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C1670DAC3118DD2AE468AC /* Pods-PencilKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PencilKitSample.debug.xcconfig"; path = "Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample.debug.xcconfig"; sourceTree = "<group>"; };
 		D683544B235C85CF002A458F /* PencilKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D683544E235C85CF002A458F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6835450235C85CF002A458F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,7 @@
 		D6835457235C85D1002A458F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D683545A235C85D1002A458F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D683545C235C85D1002A458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E641332DE53123920CF65F4F /* Pods-PencilKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PencilKitSample.release.xcconfig"; path = "Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4CECD5539825AA92AA60C7 /* Pods_PencilKitSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4352EC2398DA4F00759617 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352EE2398DA7A00759617 /* CustomViews */,
+				2F4352ED2398DA7100759617 /* viewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F4352ED2398DA7100759617 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6835452235C85CF002A458F /* ViewController.swift */,
+				D6835454235C85CF002A458F /* Main.storyboard */,
+				2F4352EA2398D7B200759617 /* CanvasViewController.swift */,
+				2F4352E82398D79E00759617 /* Canvas.storyboard */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		2F4352EE2398DA7A00759617 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352EF2398DA9600759617 /* TapAreaExpandButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2F4352F12398DB0000759617 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352F22398DB0A00759617 /* Entitles */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		2F4352F22398DB0A00759617 /* Entitles */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352F32398DB2100759617 /* Draw.swift */,
+			);
+			path = Entitles;
+			sourceTree = "<group>";
+		};
+		2F4352F72398DED000759617 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352FA2398E02F00759617 /* Extensions */,
+				2F4352F82398DEE800759617 /* Util.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2F4352FA2398E02F00759617 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352FB2398E04300759617 /* UIImage+Util.swift */,
+				2F4352FD2398E06E00759617 /* UIView+Util.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35BFAB723247D1AB462EF0BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1670DAC3118DD2AE468AC /* Pods-PencilKitSample.debug.xcconfig */,
+				E641332DE53123920CF65F4F /* Pods-PencilKitSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4112993A3072F995BBB2985D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4352F52398DC5300759617 /* CoreGraphics.framework */,
+				8C6F069C1EA2656F03387651 /* Pods_PencilKitSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6835442235C85CF002A458F = {
 			isa = PBXGroup;
 			children = (
 				D683544D235C85CF002A458F /* PencilKitSample */,
 				D683544C235C85CF002A458F /* Products */,
+				35BFAB723247D1AB462EF0BC /* Pods */,
+				4112993A3072F995BBB2985D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +158,11 @@
 		D683544D235C85CF002A458F /* PencilKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				2F4352F72398DED000759617 /* Utilities */,
+				2F4352F12398DB0000759617 /* Domains */,
+				2F4352EC2398DA4F00759617 /* Views */,
 				D683544E235C85CF002A458F /* AppDelegate.swift */,
 				D6835450235C85CF002A458F /* SceneDelegate.swift */,
-				D6835452235C85CF002A458F /* ViewController.swift */,
-				D6835454235C85CF002A458F /* Main.storyboard */,
 				D6835457235C85D1002A458F /* Assets.xcassets */,
 				D6835459235C85D1002A458F /* LaunchScreen.storyboard */,
 				D683545C235C85D1002A458F /* Info.plist */,
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D683545F235C85D1002A458F /* Build configuration list for PBXNativeTarget "PencilKitSample" */;
 			buildPhases = (
+				A4D278F24AA0CBF23FA77405 /* [CP] Check Pods Manifest.lock */,
 				D6835447235C85CF002A458F /* Sources */,
 				D6835448235C85CF002A458F /* Frameworks */,
 				D6835449235C85CF002A458F /* Resources */,
+				28B394A40E59276760656539 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4352E92398D79E00759617 /* Canvas.storyboard in Resources */,
 				D683545B235C85D1002A458F /* LaunchScreen.storyboard in Resources */,
 				D6835458235C85D1002A458F /* Assets.xcassets in Resources */,
 				D6835456235C85CF002A458F /* Main.storyboard in Resources */,
@@ -132,14 +238,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28B394A40E59276760656539 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PencilKitSample/Pods-PencilKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D278F24AA0CBF23FA77405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PencilKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6835447235C85CF002A458F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4352EB2398D7B200759617 /* CanvasViewController.swift in Sources */,
 				D6835453235C85CF002A458F /* ViewController.swift in Sources */,
+				2F4352F02398DA9600759617 /* TapAreaExpandButton.swift in Sources */,
+				2F4352F42398DB2100759617 /* Draw.swift in Sources */,
+				2F4352F92398DEE800759617 /* Util.swift in Sources */,
 				D683544F235C85CF002A458F /* AppDelegate.swift in Sources */,
 				D6835451235C85CF002A458F /* SceneDelegate.swift in Sources */,
+				2F4352FE2398E06E00759617 /* UIView+Util.swift in Sources */,
+				2F4352FC2398E04300759617 /* UIImage+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +435,11 @@
 		};
 		D6835460235C85D1002A458F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C1670DAC3118DD2AE468AC /* Pods-PencilKitSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KFC48T76;
 				INFOPLIST_FILE = PencilKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,9 +454,11 @@
 		};
 		D6835461235C85D1002A458F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E641332DE53123920CF65F4F /* Pods-PencilKitSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KFC48T76;
 				INFOPLIST_FILE = PencilKitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
